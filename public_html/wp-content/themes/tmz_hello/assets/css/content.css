@@ -12,3 +12,8 @@
 @import "content/boxes/escolha.css";
 @import "content/boxes/planos.css";
 @import "content/boxes/details.css";
+
+/* PAGES */
+
+@import "content/pages/general.css";
+@import "content/pages/faq.css";

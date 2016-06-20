@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
-<div class="container">
+<div class="page_container clearfix">
+    <div class="container">
         <?php
         if ( have_posts() ) :
 
@@ -10,5 +11,6 @@
 
         endif;
         ?>
-</div>
+    </div>
+</div><!-- page_container -->
 <?php get_footer();
