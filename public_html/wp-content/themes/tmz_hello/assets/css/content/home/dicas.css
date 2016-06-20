@@ -1,0 +1,49 @@
+#dicas {
+    background: url("../../../imgs/bg04.jpg");
+    text-align: center;
+    padding-bottom: 70px;
+}
+#dicas .separator {
+    font-size: 0;
+    background-color: #00a2d8;
+    height: 15px;
+    margin-bottom: 50px;
+}
+#dicas h2 {
+    font-size: 0;
+    background: url("../../../imgs/dicas_title.png");
+    display: inline-block;
+    width: 300px;
+    height: 67px;
+    margin-bottom: 50px;
+}
+
+#dicas p {
+    font-size: 1.8em;
+    font-weight: 100;
+    color: #00a2d8;
+    display: block;
+    padding: 0 220px;
+    margin-bottom: 30px;
+}
+#dicas p strong {
+    font-weight: 700;
+}
+#dicas input {
+    padding: 10px 15px;
+    text-align: center;
+    background: transparent;
+    margin-bottom: 20px;
+    color: #00a2d8;
+}
+#dicas button {
+    background: #00a2d8;
+    color: #ffffff;
+    padding: 10px;
+}
+#dicas input,
+#dicas button {
+    border: #00a2d8 solid 2px;
+    width: 300px;
+    font-size: 1.5em;
+}

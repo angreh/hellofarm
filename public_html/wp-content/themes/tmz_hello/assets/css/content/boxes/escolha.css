@@ -1,0 +1,116 @@
+.sub-title-boxes {
+    color: #65873b;
+    font-weight: 700;
+    padding: 0 40px 50px 40px;
+}
+.wrapper-boxes {
+    position: relative;
+    text-align: center;
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+    cursor: pointer;
+}
+.wrapper-boxes .price-boxes {
+    background-color: #fd5512;
+}
+.wrapper-boxes:first-child .price-boxes {
+    background-color: #ffc000;
+}
+.wrapper-boxes:last-child .price-boxes {
+    background-color: #00a1d6;
+}
+.wrapper-boxes:last-child {
+    margin-right: 0;
+}
+.title-boxes {
+    color: #65873b;
+    font-size: 1.8em;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.desc-boxes {
+    background-color: #f3f3f3;
+    border: #65873b solid;
+    border-width: 2px 2px 0 2px;
+    width: 85%;
+    padding: 15px;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.small-desc-boxes {
+    color: #65873b;
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+.large-desc-boxes {
+    color: #65873b;
+}
+.price-boxes {
+    width: 94%;
+    margin: 0 auto;
+    display: table;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 8px 0;
+    letter-spacing: 0.1em;
+    position: relative;
+    z-index: 2;
+}
+.price-boxes .valign {
+    height: 30px;
+}
+.buy-button-boxes {
+    width: 100%;
+    padding: 6px;
+    background-color: #4f891e;
+    display: table;
+}
+.buy-button-boxes .inner {
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+.buy-button-boxes .valign {
+    height: 40px;
+}
+.valign {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+.shadow {
+    border-bottom: 20px solid #3f3f3f;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    height: 0;
+    width: 94%;
+    position: absolute;
+    left: 3%;
+    bottom: 100px;
+    z-index: 1;
+}
+.shadow2 {
+    border-bottom: 20px solid #3f3f3f;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    height: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 54px;
+    z-index: 1;
+}
+.content-boxes br {
+    clear: both;
+}

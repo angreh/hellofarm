@@ -1,0 +1,144 @@
+#header {
+    height: 100px;
+    background: #f4f4f4;
+    border-bottom: 1px solid #b4c6a2;
+}
+/* LOGO */
+#header_logo {
+    position: absolute;
+    top: 24px;
+    left: 10px;
+    z-index: 10;
+    transition: all 500ms;
+}
+#header_logo.small {
+    top: 5px;
+}
+#header_logo a {
+    font-size: 0;
+    background: url("../../assets/imgs/header_logo.png");
+
+    display: block;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    transition: all 500ms;
+}
+#header_logo.small a {
+    width: 110px;
+    height: 110px;
+}
+#header_logo.semi-small a {
+    width: 137px;
+    height: 137px;
+}
+
+/* MENU */
+#header_menu ul {
+    display: none;
+}
+#menu-open {
+    padding: 8px;
+    display: inline-block;
+    margin-top: -20px;
+    outline: none;
+}
+@media (min-width: 1000px){
+    #header_menu ul {
+        display: block;
+    }
+    #menu-open {
+        display: none;
+    }
+}
+#header_menu {
+    position: absolute;
+    top: 68px;
+    right: 0;
+}
+#header_menu li {
+    display: inline-block;
+    margin-left: 50px;
+}
+#header_menu li a {
+    color: #638c3c;
+    font-weight: 600;
+    font-size: 0.9em;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+#header_menu li a:hover {
+    color: #ff5612;
+    border-bottom: 5px solid #ff5612;
+}
+#header_menu li a.thin {
+    font-weight: 400;
+}
+
+/* MENU MOBILE */
+#tmz-mobile-menu-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color: #fe5612;
+    text-align: center;
+    z-index: 100;
+}
+#tmz-mobile-menu-wrapper.hid {
+    margin-top: -160px;
+}
+#tmz-mobile-menu-wrapper .tmz-mobile-menu-header {
+    height: 100px;
+    background: #f4f4f4;
+    border-bottom: 1px solid #b4c6a2;
+    position: relative;
+    z-index: 110;
+}
+#tmz-mobile-menu-wrapper .tmz-mobile-menu-logo {
+    margin-top: -91px;
+    position: relative;
+    z-index: 111;
+}
+#tmz-mobile-menu-wrapper .tmz-mobile-menu-menu {
+    position: relative;
+    z-index: 109;
+}
+#tmz-mobile-menu-wrapper.hid .tmz-mobile-menu-menu {
+    margin-top: -360px;
+}
+#tmz-mobile-menu-wrapper .tmz-mobile-menu-logo a {
+    background: url("/wp-content/themes/tmz_hello/assets/imgs/header_logo.png");
+    background-size: cover;
+    font-size: 0;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+}
+#tmz-mobile-menu-wrapper a {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+#tmz-mobile-menu-wrapper li {
+    padding: 20px 0;
+    border-bottom: 1px solid #d13c00;
+}
+#tmz-mobile-menu-close {
+    background-color: #00a1d6;
+    width: 100%;
+    padding: 20px 0 15px;
+    display: block;
+    position: relative;
+    z-index: 108;
+}
+#tmz-mobile-menu-wrapper.hid #tmz-mobile-menu-close {
+    margin-top: -65px;
+}
+#tmz-mobile-menu-wrapper,
+#tmz-mobile-menu-wrapper .tmz-mobile-menu-menu,
+#tmz-mobile-menu-wrapper #tmz-mobile-menu-close {
+    transition: margin-top 1000ms;
+}

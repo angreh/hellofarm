@@ -1,0 +1,76 @@
+#boxes {
+    background: url("/wp-content/themes/tmz_hello/assets/imgs/bgboxes.jpg") center;
+    background-size: cover;
+    display: none;
+    position: relative;
+}
+.products-div {
+    padding: 15px;
+    position: relative;
+    height: 100%;
+}
+.products-div .outerbox {
+    border: 3px solid #006505;
+    padding-bottom: 100px;
+    /* Firefox */
+}
+.title_boxes {
+    border: #006505 2px solid;
+    padding: 10px 30px;
+    left: 50%;
+    position: relative;
+    display: inline-block;
+
+    margin: 70px 0 50px -250px;
+    width: 500px;
+    text-align: center;
+
+    transform:skewX(-20deg);
+    -ms-transform:skewX(-20deg);
+    -webkit-transform:skewX(-20deg);
+}
+.title_boxes .inner {
+    transform:skewX(20deg);
+    -ms-transform:skewX(20deg);
+    -webkit-transform:skewX(20deg);
+
+    color: #65873b;
+    font-weight: 600;
+    font-size: 2em;
+}
+.title_boxes .innnummber {
+    font-size: 0.6em;
+    font-weight: 400;
+}
+#passo_01 .title,
+#passo_02 .title,
+#passo_03 .title {
+    padding: 30px 20px;
+    background-color: #1a6882;
+    border-bottom: 1px solid #0f4659;
+    color: #ffffff;
+    text-align: center;
+}
+#passo_01 .title strong,
+#passo_02 .title strong,
+#passo_03 .title strong {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+#passo_01 .title,
+#passo_02 .products-div,
+#passo_03 .products-div {
+    display: none;
+}
+.passook {
+    padding: 10px !important;
+    background-color: #4F891E !important;
+    cursor: pointer;
+}
+.loading-planos,
+.loading-boxes {
+    background-color: #B0C09B;
+    text-align: center;
+    padding: 50px 0;
+    display: none;
+}

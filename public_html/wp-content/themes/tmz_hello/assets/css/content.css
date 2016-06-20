@@ -1,0 +1,14 @@
+/* HOME */
+
+@import "content/home/banner.css";
+@import "content/home/comofunciona.css";
+@import "content/home/sociais.css";
+@import "content/home/dicas.css";
+
+/* BOXES */
+
+@import "content/boxes/general.css";
+
+@import "content/boxes/escolha.css";
+@import "content/boxes/planos.css";
+@import "content/boxes/details.css";

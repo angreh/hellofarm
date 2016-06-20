@@ -1,0 +1,118 @@
+#como-funciona {
+    text-align: center;
+    background: url("../../../imgs/bg02.jpg") center;
+    background-size: cover;
+    color: #ffffff;
+    padding-bottom: 70px;
+}
+#como-funciona .separator {
+    background-color: rgba( 255, 86, 18, 0.5 );
+    height: 15px;
+}
+#como-funciona h2 {
+    font-size: 0;
+    background: url("../../../imgs/cf_title.png");
+    display: inline-block;
+    width: 317px;
+    height: 67px;
+    margin: 70px 0;
+}
+#como-funciona ul.options i {
+    width: 88px;
+    height: 84px;
+    display: inline-block;
+    font-size: 0;
+    float: left;
+    margin-right: 10px;
+}
+#como-funciona i.descubra {
+    background: url("../../../imgs/icon_desc.png");
+}
+#como-funciona i.doe {
+    background: url("../../../imgs/icon_doe.png");
+}
+#como-funciona i.assine {
+    background: url("../../../imgs/icon_assine.png");
+}
+#como-funciona ul.options li {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    text-align: left;
+    margin-right: 50px;
+}
+#como-funciona ul.options li h4 {
+    font-size: 1.6em;
+}
+#como-funciona ul.options li p {
+    font-weight: 300;
+    font-size: 0.95em;
+    /*float: left;*/
+}
+#como-funciona .right,
+#como-funciona .left {
+    position: relative;
+    width: 49.5%;
+    margin-top: 30px;
+}
+#como-funciona .left {
+    float: left;
+    text-align: left;
+}
+#como-funciona .right {
+    float: right;
+}
+#como-funciona .left h3 {
+    background: url("../../../imgs/cf_sbtitle.png");
+    display: block;
+    width: 375px;
+    height: 80px;
+    font-size: 0;
+}
+#como-funciona .left ul {
+    padding-top: 20px;
+}
+#como-funciona .left li {
+    width: 49.5%;
+    float: left;
+    position: relative;
+}
+#como-funciona .left i {
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+#como-funciona .item01 {
+    background: url("../../../imgs/icon01.png");
+}
+#como-funciona .item02 {
+    background: url("../../../imgs/icon02.png");
+}
+#como-funciona .item03 {
+    background: url("../../../imgs/icon03.png");
+}
+#como-funciona .item04 {
+    background: url("");
+}
+#como-funciona .item05 {
+    background: url("../../../imgs/icon05.png");
+}
+#como-funciona .item06 {
+    background: url("../../../imgs/icon06.png");
+}
+#como-funciona .right ul {
+    padding-top: 35px;
+}
+#como-funciona .right li {
+    float: right;
+    margin-left: 1.9%;
+    border: 2px solid #ffffff;
+    display: block;
+    margin-bottom: 20px;
+    width: 48%;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 0;
+}

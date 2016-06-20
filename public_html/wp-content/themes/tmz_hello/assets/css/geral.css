@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,900italic,900,700italic,700);
+
+* {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+html, body {
+    font-size: 14px;
+    background: #00a2d8;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    position: relative;
+    margin: 0 20px;
+}
+@media (min-width: 1000px){
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}

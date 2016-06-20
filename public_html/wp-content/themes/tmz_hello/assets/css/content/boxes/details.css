@@ -1,0 +1,75 @@
+#details-wrapper .left {
+    float: left;
+
+}
+#details-wrapper .right {
+    float: right;
+}
+#details-wrapper .left,
+#details-wrapper .right {
+    width: 49%;
+}
+#details-wrapper .checkbox-wrapper {
+    position: relative;
+    cursor: pointer;
+}
+#details-wrapper .checkbox-wrapper .checkbox {
+    display: inline-block;
+    border: 2px solid #006505;
+    content: ' ';
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+#details-wrapper .checkbox-wrapper .checkarrow {
+    position: absolute;
+    width: 114px;
+    height: 68px;
+    background: url('../../../imgs/checkarrow.png');
+    background-size: cover;
+    top: -33px;
+    left: -15px;
+    display: none;
+}
+#details-wrapper .checkbox-wrapper div {
+    display: inline-block;
+    color: #006505;
+    font-size: 2.8em;
+    font-style: italic;
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+#details-wrapper p {
+    color: #65873b;
+}
+
+.button-detail {
+    position: relative;
+    margin: 40px auto 0 auto;
+    width: 300px;
+}
+
+.button-detail-inner {
+    width: 100%;
+    padding: 6px;
+    background-color: #4f891e;
+    display: table;
+    cursor: pointer;
+}
+.button-detail-inner .inner {
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+.button-detail-inner .valign {
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+}

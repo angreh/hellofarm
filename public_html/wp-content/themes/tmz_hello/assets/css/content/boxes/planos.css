@@ -1,0 +1,77 @@
+.wrapper-planos {
+    position: relative;
+    text-align: center;
+    width: 510px;
+    margin: 0 auto;
+}
+
+.wrapper-plano {
+    display: inline-block;
+    width: 250px;
+    float: left;
+    cursor: pointer;
+}
+.wrapper-plano:first-child {
+    margin-right: 9px;
+}
+
+.wrapper-plano .plano-title {
+    padding: 10px 0;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 1.5em;
+    color: #ffffff;
+    font-style: italic;
+}
+.wrapper-plano.mensal .plano-title {
+    background-color: #4F891E;
+}
+.wrapper-plano.trimestral .plano-title {
+    background-color: #febf00;
+}
+
+.plano-desc {
+    background-color: #f9f9f9;
+    border: solid;
+    border-width: 0 2px 0 2px;
+    padding: 20px 0;
+}
+.wrapper-plano.mensal .plano-desc {
+    border-color: #4F891E;
+}
+.wrapper-plano.trimestral .plano-desc {
+    border-color: #febf00;
+}
+.wrapper-plano .plano-desc .price {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.wrapper-plano .button {
+    width: 100%;
+    padding: 6px;
+    display: table;
+}
+.wrapper-plano.mensal .button {
+    background-color: #4F891E;
+}
+.wrapper-plano.trimestral .button {
+    background-color: #febf00;
+}
+.wrapper-plano .button .inner {
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+.wrapper-plano .button .inner .valign {
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+
