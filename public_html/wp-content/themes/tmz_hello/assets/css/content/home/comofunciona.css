@@ -37,9 +37,23 @@
 #como-funciona ul.options li {
     display: inline-block;
     position: relative;
-    width: 250px;
+    width: 100%;
     text-align: left;
     margin-right: 50px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+@media (min-width: 960px)
+{
+    #como-funciona ul.options li
+    {
+        width: 250px;
+        margin-bottom: 0;
+    }
+}
+#como-funciona ul.options li
+{
+
 }
 #como-funciona ul.options li h4 {
     font-size: 1.6em;
@@ -49,11 +63,45 @@
     font-size: 0.95em;
     /*float: left;*/
 }
+#como-funciona .mob-helper h3
+{
+    display: inline-block;
+    margin: 0 auto;
+}
+#como-funciona .mob-helper p
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+@media (min-width: 960px)
+{
+    #como-funciona .mob-helper h3
+    {
+        margin: 0;
+    }
+    #como-funciona .mob-helper p
+    {
+        text-align: left;
+        margin-bottom: 0;
+    }
+}
 #como-funciona .right,
-#como-funciona .left {
+#como-funciona .left
+{
     position: relative;
-    width: 49.5%;
+    width: 100%;
     margin-top: 30px;
+}
+@media (min-width: 960px)
+{
+    #como-funciona .right,
+    #como-funciona .left
+    {
+        position: relative;
+        width: 49.5%;
+        margin-top: 30px;
+    }
+
 }
 #como-funciona .left {
     float: left;
@@ -72,10 +120,18 @@
 #como-funciona .left ul {
     padding-top: 20px;
 }
-#como-funciona .left li {
-    width: 49.5%;
+#como-funciona .left li
+{
+    width: 100%;
     float: left;
     position: relative;
+}
+@media (min-width: 960px)
+{
+    #como-funciona .left li
+    {
+        width: 49.5%;
+    }
 }
 #como-funciona .left i {
     width: 43px;
@@ -94,7 +150,7 @@
     background: url("../../../imgs/icon03.png");
 }
 #como-funciona .item04 {
-    background: url("");
+    background: url("../../../imgs/icon04.png");
 }
 #como-funciona .item05 {
     background: url("../../../imgs/icon05.png");

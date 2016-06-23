@@ -12,19 +12,51 @@
 #sociais .right,
 #sociais .left {
     position: relative;
-    width: 49.9%;
+    width: 100%;
 }
-#sociais .left {
+#sociais .left ,
+#sociais .right {
     float: left;
 }
-#sociais .right {
-    float: right;
+#sociais .left
+{
+    text-align: center;
 }
+@media (min-width: 960px)
+{
+    #sociais .right,
+    #sociais .left {
+        position: relative;
+        width: 49.9%;
+    }
+    #sociais .left {
+        float: left;
+    }
+    #sociais .right {
+        float: right;
+    }
+    #sociais .left
+    {
+        text-align: left;
+    }
+}
+
 #sociais h2 {
     font-size: 1.9em;
     font-style: italic;
     font-weight: 700;
     margin-bottom: 30px;
+}
+#sociais .right .mobile-helper
+{
+    text-align: center;
+}
+@media (min-width: 960px)
+{
+    #sociais .right .mobile-helper
+    {
+        text-align: left;
+    }
 }
 #sociais .right .wrapper {
     width: 105px;

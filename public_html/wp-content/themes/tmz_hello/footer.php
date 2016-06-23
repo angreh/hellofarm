@@ -12,9 +12,9 @@
 
                 <li id="footer_menu">
                     <a href="">Sobre nós</a>
-                    <a href="">Parceiros</a>
-                    <a href="">Reviews</a>
-                    <a href="">FAQ</a>
+                    <a href="/parcerias">Parcerias</a>
+<!--                    <a href="">Reviews</a>-->
+                    <a href="/faq">FAQ</a>
                 </li>
 
                 <li id="footer_newsletter">

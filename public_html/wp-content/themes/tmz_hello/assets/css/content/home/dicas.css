@@ -17,15 +17,21 @@
     height: 67px;
     margin-bottom: 50px;
 }
-
 #dicas p {
     font-size: 1.8em;
     font-weight: 100;
     color: #00a2d8;
     display: block;
-    padding: 0 220px;
+    padding: 0;
     margin-bottom: 30px;
 }
+@media (min-width: 960px)
+{
+    #dicas p {
+        padding: 0 220px;
+    }    
+}
+
 #dicas p strong {
     font-weight: 700;
 }

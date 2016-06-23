@@ -6,7 +6,7 @@
 /* LOGO */
 #header_logo {
     position: absolute;
-    top: 24px;
+    top: 14px;
     left: 10px;
     z-index: 10;
     transition: all 500ms;

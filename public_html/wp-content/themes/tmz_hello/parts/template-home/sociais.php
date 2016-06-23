@@ -5,10 +5,13 @@
         <div class="left">
             <h2>#REDES SOCIAIS</h2>
             <img src="/wp-content/themes/tmz_hello/assets/imgs/social01.png" title="inst">
+            <img src="/wp-content/themes/tmz_hello/assets/imgs/social02.png" title="blog">
         </div>
 
         <div class="right">
-            <h2>DEPOIMENTOS</h2>
+            <div class="mobile-helper">
+                <h2>DEPOIMENTOS</h2>
+            </div>
 
             <ul>
                 <li>
