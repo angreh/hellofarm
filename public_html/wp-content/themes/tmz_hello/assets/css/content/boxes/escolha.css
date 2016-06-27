@@ -6,10 +6,19 @@
 .wrapper-boxes {
     position: relative;
     text-align: center;
-    width: 32%;
+    width: 100%;
     float: left;
-    margin-right: 2%;
+    margin-right: 0%;
     cursor: pointer;
+    margin-bottom: 50px;
+}
+@media (min-width: 960px)
+{
+    .wrapper-boxes {
+        width: 32%;
+        margin-right: 2%;
+        margin-bottom: 0;
+    }
 }
 .wrapper-boxes .price-boxes {
     background-color: #fd5512;

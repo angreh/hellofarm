@@ -1,20 +1,36 @@
 .wrapper-planos {
     position: relative;
     text-align: center;
-    width: 510px;
+    width: 100%;
     margin: 0 auto;
 }
-
 .wrapper-plano {
     display: inline-block;
-    width: 250px;
+    width: 100%;
     float: left;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 .wrapper-plano:first-child {
     margin-right: 9px;
 }
+@media (min-width: 960px)
+{
+    .wrapper-planos {
+        width: 510px;
+        margin-bottom: 0;
+    }
+    .wrapper-plano {
+        display: inline-block;
+        width: 250px;
+        float: left;
+        cursor: pointer;
+    }
+    .wrapper-plano:first-child {
+        margin-right: 9px;
+    }
 
+}
 .wrapper-plano .plano-title {
     padding: 10px 0;
     font-weight: 700;

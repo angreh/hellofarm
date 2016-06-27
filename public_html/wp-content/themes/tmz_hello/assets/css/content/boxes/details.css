@@ -7,7 +7,16 @@
 }
 #details-wrapper .left,
 #details-wrapper .right {
-    width: 49%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+@media (min-width: 960px)
+{
+    #details-wrapper .left,
+    #details-wrapper .right {
+        width: 49%;
+        margin-bottom: 0;
+    }
 }
 #details-wrapper .checkbox-wrapper {
     position: relative;
