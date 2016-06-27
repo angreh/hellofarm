@@ -28,9 +28,19 @@
             </ul>
             <div class="clearfix"></div>
 
+
+            <div class="footer-cn">
+
+                <hr >
+                contato@hellofarm.com.br - CNPJ.: 23.694.884/0001-27
+
+            </div>
+
         </div>
+
+
         <div class="separator">-</div>
-    </div>
+    </div><!-- #footer -->
 
     <script src="<?php echo get_template_directory_uri() . '/assets/js/jquery-1.12.3.min.js'; ?>"></script>
     <script src="<?php echo get_template_directory_uri() . '/assets/js/index.js'; ?>"></script>

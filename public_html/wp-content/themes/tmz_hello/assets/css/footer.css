@@ -67,3 +67,13 @@
     margin-top: 40px;
     font-size: 0;
 }
+.footer-cn {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 300;
+}
+.footer-cn hr {
+    background-color: #0096cc;
+    border: none;
+    height: 1px;
+}
