@@ -28,10 +28,10 @@
 #payment div.place-order {
     display: none;
 }
-.tmz-cart-wrapper {
-    background-color: #ffffff;
-    padding: 10px;
-}
+/*.tmz-cart-wrapper {*/
+    /*background-color: #ffffff;*/
+    /*padding: 10px;*/
+/*}*/
 .woocommerce .woocommerce-info {
     border-top-color: #006505 !important;
 }
@@ -41,10 +41,10 @@
 .woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message {
     margin: 0 0 5px !important;
 }
-.tmz-cart-border {
-    border: 2px solid #65873b;
-    padding: 50px 0;
-}
+/*.tmz-cart-border {*/
+    /*border: 2px solid #65873b;*/
+    /*padding: 50px 0;*/
+/*}*/
 .tmz-cart-title {
     text-align: center;
     font-style: italic;
