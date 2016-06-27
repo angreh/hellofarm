@@ -6,8 +6,9 @@
                 <li id="footer_logo"></li>
 
                 <li id="footer_phones">
-                    (11) 3333-4444<br>
-                    (11) 3333-4444
+                    &nbsp;
+<!--                    (11) 3333-4444<br>-->
+<!--                    (11) 3333-4444-->
                 </li>
 
                 <li id="footer_menu">
