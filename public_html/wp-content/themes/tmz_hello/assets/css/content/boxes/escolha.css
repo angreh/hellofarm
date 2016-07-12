@@ -58,6 +58,16 @@
 }
 .large-desc-boxes {
     color: #65873b;
+    text-align: left;
+}
+.large-desc-boxes ul
+{
+    list-style: disc;
+    padding-left: 28px;
+}
+.large-desc-boxes ul li
+{
+    margin-bottom: 10px;
 }
 .price-boxes {
     width: 94%;

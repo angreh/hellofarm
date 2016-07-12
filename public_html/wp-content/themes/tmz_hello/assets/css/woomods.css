@@ -146,3 +146,17 @@
     vertical-align: middle;
     margin: 0 auto;
 }
+#add_payment_method #payment ul.payment_methods li input,
+.woocommerce-checkout #payment ul.payment_methods li input
+{
+    box-sizing: content-box !important;
+}
+.azpaylte-cc-form-name,
+.azpaylte-cc-form-number
+{
+    width: 95%;
+}
+#tmz-nome-number .display-block
+{
+   width: 100% !important;
+}

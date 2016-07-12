@@ -30,6 +30,11 @@ class TMZProduct
 
             $pp->ID = $product->ID;
             $pp->title = $product->post_title;
+            $pp->content = $product->post_content;
+
+            $pp->price = number_format($meta['_min_variation_price'][0], 2, ',', '.');
+
+//            exit(var_dump($meta['_min_variation_price'][0]));
 
             $pp->planos = explode('|', $planos['value']);
 

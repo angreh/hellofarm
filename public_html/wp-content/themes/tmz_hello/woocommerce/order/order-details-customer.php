@@ -31,6 +31,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<?php if ( $order->billing_email ) : ?>
 		<tr>
+<!--			<th>--><?php //_e( 'Email:', 'woocommerce' ); ?><!--</th>-->
 			<th><?php _e( 'Email:', 'woocommerce' ); ?></th>
 			<td><?php echo esc_html( $order->billing_email ); ?></td>
 		</tr>
