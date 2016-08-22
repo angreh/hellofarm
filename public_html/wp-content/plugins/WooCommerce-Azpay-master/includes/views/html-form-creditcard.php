@@ -71,7 +71,7 @@ wp_enqueue_script('creditcard', plugins_url( '../assets/js/creditcard.js', plugi
                 <select name="azpaylte_cc_form_parcel" class="azpaylte-cc-form-parcel" id="azpaylte_cc_form_parcel"></select>
             </li>
 
-            <li id="tmz-nome-number">
+            <li>
                 
                 <div class="display-block">
                 	<label>Nome no Cartão</label>
@@ -88,7 +88,7 @@ wp_enqueue_script('creditcard', plugins_url( '../assets/js/creditcard.js', plugi
             
             <li>
                <div class="display-block">
-	               	<label>Data de Validade</label>
+	               	<label>Data de Validate</label>
 	                <input type="text" name="azpaylte_cc_form_validate" value="" size="10" class="azpaylte-cc-form-validate" />
                </div>
                <div class="display-block">

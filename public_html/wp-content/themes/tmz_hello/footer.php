@@ -44,6 +44,7 @@
     </div><!-- #footer -->
 
     <script src="<?php echo get_template_directory_uri() . '/assets/js/jquery-1.12.3.min.js'; ?>"></script>
+    <!--<script src="--><?php //echo get_template_directory_uri() . '/assets/js/jquery.mask.js'; ?><!--"></script>-->
     <script src="<?php echo get_template_directory_uri() . '/assets/js/index.js'; ?>"></script>
 
     <?php wp_footer(); ?>

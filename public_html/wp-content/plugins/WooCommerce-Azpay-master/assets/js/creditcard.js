@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 
-    $(document).on('ajaxComplete', function(){
+    $("body").on('ajaxComplete', function(){
 
         $(".azpaylte-cc-form-name").val('');
         $(".azpaylte-cc-form-number").val('');

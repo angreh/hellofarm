@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<students><total_stud>500</total_stud><student><id>1</id><name>ABC</name><address><city>Pune</city><zip>411006</zip></address></student><student><id>2</id><name>XYZ</name><address><city>Mumbai</city><zip>400906</zip></address></student></students>

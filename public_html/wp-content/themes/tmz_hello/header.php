@@ -26,11 +26,11 @@
         <div class="tmz-mobile-menu-menu">
 
             <ul>
-                <li><a href="/como-funciona">COMO FUNCIONA</a></li>
+                <li><a href="/#como-funciona">COMO FUNCIONA</a></li>
                 <li><a href="#" class="btn_escolha">ESCOLHA SUA BOX</a></li>
                 <li><a href="">PARA SUA EMPRESA</a></li>
-                <li><a href="http://blog.hellofarm.com.br/">BLOG</a></li>
-                <li><a href="">LOGIN</a> / <a href="" class="thin">REGISTRO</a></li>
+                <li><a href="http://blog.hellofarm.com.br/" target="_blank">BLOG</a></li>
+                <li><a href="/minha-conta">LOGIN</a> / <a href="/registro" class="thin">REGISTRO</a></li>
             </ul>
 
         </div>
@@ -48,11 +48,11 @@
             <div id="header_menu">
 
                 <ul>
-                    <li><a href="/como-funciona">COMO FUNCIONA</a></li>
+                    <li><a href="/#como-funciona">COMO FUNCIONA</a></li>
                     <li><a href="#" class="btn_escolha">ESCOLHA SUA BOX</a></li>
                     <li><a href="">PARA SUA EMPRESA</a></li>
-                    <li><a href="http://blog.hellofarm.com.br/">BLOG</a></li>
-                    <li><a href="">LOGIN</a> / <a href="#" class="thin">REGISTRO</a></li>
+                    <li><a href="http://blog.hellofarm.com.br/" target="_blank">BLOG</a></li>
+                    <li><a href="/minha-conta">LOGIN</a> / <a href="/registro" class="thin">REGISTRO</a></li>
                 </ul>
 
                 <div class="header-mobile-button">

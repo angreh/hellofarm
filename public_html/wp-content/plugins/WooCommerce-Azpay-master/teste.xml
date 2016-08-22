@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transaction-request>
+    <version>1.0.0</version>
+    <verification>
+        <merchantId>121</merchantId>
+        <merchantKey>l7wwxp71ebr27247048191107903</merchantKey>
+    </verification>
+    <rebill>
+        <order>
+            <reference>115</reference>
+            <totalAmount>22870</totalAmount>
+            <period>3</period>
+            <frequency>3</frequency>
+            <dateStart>2016-08-22</dateStart>
+            <dateEnd>2016-12-22</dateEnd>
+        </order>
+        <paymentCreditCard>
+            <acquirer>20</acquirer>
+            <amount>22870</amount>
+            <currency>986</currency>
+            <country>BRA</country>
+            <numberOfPayments>1</numberOfPayments>
+            <groupNumber>0</groupNumber>
+            <flag>visa</flag>
+            <cardHolder>TESTE TESTE</cardHolder>
+            <cardNumber>4012 0010 3714 1112</cardNumber>
+            <cardSecurityCode>123</cardSecurityCode>
+            <cardExpirationDate>201805</cardExpirationDate>
+            <saveCreditCard>true</saveCreditCard>
+            <generateToken>false</generateToken>
+            <departureTax>0</departureTax>
+            <softDescriptor></softDescriptor>
+        </paymentCreditCard>
+        <billing>
+            <customerIdentity>1</customerIdentity>
+            <name>ANDRE PINTO</name>
+            <address>R. Lindolfo Gonçalves Chaves, 477, Apto 107</address>
+            <address2></address2>
+            <city>João Pessoa</city>
+            <state>PB</state>
+            <postalCode>58051200</postalCode>
+            <country>BR</country>
+            <phone>8399903060</phone>
+            <email>angreh@gmail.com</email>
+        </billing>
+        <urlReturn>http://local.hellofarm.com.br/azpay</urlReturn>
+        <customField></customField>
+    </rebill>
+</transaction-request>

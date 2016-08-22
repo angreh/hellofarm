@@ -31,7 +31,30 @@ $(function(){
         }
     );
 
+    if( $('#billing_email').length ){
+        $('label[for=billing_email]').html('E-mail');
+    }
+
+    $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+
     payment();
+
+    if( $('#billing_postcode').length )
+    {
+        //$( '#billing_postcode' ).mask( '00000-000' );
+        console.log('Opa2');
+    }
 
 });
 

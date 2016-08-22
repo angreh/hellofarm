@@ -311,6 +311,8 @@ class AZPay {
 
 		// Reset error flag
 		$this->error = false;
+
+        echo $this->xml;
 		
 		// Init cURL
 		$ch = curl_init();

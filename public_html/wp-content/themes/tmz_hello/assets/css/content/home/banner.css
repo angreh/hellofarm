@@ -16,7 +16,7 @@
 #banner .wrapper h2 strong {
     font-weight: 800;
 }
-#banner button {
+#banner a {
     margin-top: 30px;
     color: #ff5612;
     border: 2px solid #ff5612;
@@ -26,8 +26,9 @@
     background-color: transparent;
     cursor: pointer;
     transition: background-color 0.5s;
+    display: inline-block;
 }
-#banner button:hover {
+#banner a:hover {
     background-color: #ff5612;
     color: #ffffff;
 }
